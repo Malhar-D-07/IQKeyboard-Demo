@@ -1,0 +1,94 @@
+PODS:
+  - IQKeyboardManagerSwift (6.5.10)
+  - MaterialComponents/AnimationTiming (124.2.0)
+  - MaterialComponents/Availability (124.2.0)
+  - MaterialComponents/Buttons (124.2.0):
+    - MaterialComponents/Elevation
+    - MaterialComponents/Ink
+    - MaterialComponents/private/Math
+    - MaterialComponents/Ripple
+    - MaterialComponents/Shadow
+    - MaterialComponents/ShadowElevations
+    - MaterialComponents/ShadowLayer
+    - MaterialComponents/ShapeLibrary
+    - MaterialComponents/Shapes
+    - MaterialComponents/Typography
+    - MDFInternationalization
+    - MDFTextAccessibility
+  - MaterialComponents/Chips (124.2.0):
+    - MaterialComponents/Elevation
+    - MaterialComponents/Ink
+    - MaterialComponents/private/Math
+    - MaterialComponents/Ripple
+    - MaterialComponents/ShadowElevations
+    - MaterialComponents/ShadowLayer
+    - MaterialComponents/ShapeLibrary
+    - MaterialComponents/Shapes
+    - MaterialComponents/TextFields
+    - MaterialComponents/Typography
+    - MDFInternationalization
+  - MaterialComponents/Elevation (124.2.0):
+    - MaterialComponents/Availability
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+  - MaterialComponents/Ink (124.2.0):
+    - MaterialComponents/Availability
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+  - MaterialComponents/Palettes (124.2.0)
+  - MaterialComponents/private/Application (124.2.0)
+  - MaterialComponents/private/Color (124.2.0):
+    - MaterialComponents/Availability
+  - MaterialComponents/private/Math (124.2.0)
+  - MaterialComponents/Ripple (124.2.0):
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/Availability
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+  - MaterialComponents/Shadow (124.2.0):
+    - MaterialComponents/Availability
+  - MaterialComponents/ShadowElevations (124.2.0)
+  - MaterialComponents/ShadowLayer (124.2.0):
+    - MaterialComponents/ShadowElevations
+  - MaterialComponents/ShapeLibrary (124.2.0):
+    - MaterialComponents/private/Math
+    - MaterialComponents/Shapes
+  - MaterialComponents/Shapes (124.2.0):
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+    - MaterialComponents/ShadowLayer
+  - MaterialComponents/TextFields (124.2.0):
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/Buttons
+    - MaterialComponents/Elevation
+    - MaterialComponents/Palettes
+    - MaterialComponents/private/Math
+    - MaterialComponents/Typography
+    - MDFInternationalization
+  - MaterialComponents/Typography (124.2.0):
+    - MaterialComponents/private/Application
+    - MaterialComponents/private/Math
+    - MDFTextAccessibility
+  - MDFInternationalization (2.0.0)
+  - MDFTextAccessibility (2.0.1)
+
+DEPENDENCIES:
+  - IQKeyboardManagerSwift
+  - MaterialComponents/Chips
+
+SPEC REPOS:
+  trunk:
+    - IQKeyboardManagerSwift
+    - MaterialComponents
+    - MDFInternationalization
+    - MDFTextAccessibility
+
+SPEC CHECKSUMS:
+  IQKeyboardManagerSwift: 52962c76ab33532f15ad9f3ff4e5715eda5335bb
+  MaterialComponents: 1a9b2d9d45b1601ae544de85089adc4c464306d4
+  MDFInternationalization: 010097556d6b09d2c4ea38e0820ea6d37be6a314
+  MDFTextAccessibility: f4bb4cc2194286651b59a215fdeaa0e05dc90ba5
+
+PODFILE CHECKSUM: db3fdc5e6893ed78dba5f44fe2fecff7e8e86b17
+
+COCOAPODS: 1.11.2
