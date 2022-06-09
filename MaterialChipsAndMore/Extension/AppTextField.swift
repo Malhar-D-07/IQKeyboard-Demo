@@ -24,11 +24,7 @@ class AppTextField: UITextField {
     
     func setKeyboardForKeypad() {
         if isNumberPad(self) {
-            if IQKeyboardManager.shared.canGoNext {
-                self.addRightButtonOnKeyboardWithText("Next", target: self, action: #selector(self.addRightButton))
-            } else {
-                self.addRightButtonOnKeyboardWithText("Done", target: self, action: #selector(self.addRightButton))
-            }
+            self.addRightButtonOnKeyboardWithText("Next", target: self, action: #selector(self.addRightButton))
             
         } else {
             IQKeyboardManager.shared.enableAutoToolbar = false
